@@ -40,6 +40,9 @@
   * Add workflow to build and profile third-party repo (#8398)
   * Implement custom delegators for drop methods (#8183)
   * Bump RuboCop to v0.92.x
+  * Update cucumber gem version to 5.1.2 (#8413)
+  * Fix test suite compatibility with JRuby (#8418)
+  * chore(deps): bump Rubocop to 0.93.0 (#8430)
 
 ### Bug Fixes
 
@@ -51,12 +54,22 @@
   * Stash documents `write?` attribute in a variable (#8389)
   * Reduce string allocations from generating doc URLs (#8392)
   * Check if site is in incremental mode optimally (#8401)
+  * Handle nil argument to Jekyll.sanitized_path (#8415)
+  * Compute relative_path of pages using PathManager (#8408)
+  * Enable `Performance/ChainArrayAllocation` cop (#8404)
+  * Utilize flexibility of Site#in_dest_dir (#8403)
+  * Reduce allocation from normalize_whitespace filter (#8400)
+  * Use Regexp#match? when MatchData is not required (#8427)
+  * Check default front matter scope against symbols (#8393)
+  * Stash frequently used Drop setter keys for reuse (#8394)
 
 ### Minor Enhancements
 
   * Warn on command-line with permalink conflict (#8342)
   * Supress warning issued for redirect pages (#8347)
   * Add post_convert hook to modify HTML content before layout (#8368)
+  * Cache Jekyll.sanitized_path (#8424)
+  * Memoize array of drop getter method names (#8421)
 
 ## 4.1.1 / 2020-06-24
 
