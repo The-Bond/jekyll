@@ -25,6 +25,9 @@
   * Improve maintainability of config option data (#8383)
   * Remove CircleCI v1 docs (#8410)
   * Remove NOKOGIRI_USE_SYSTEM_LIBRARIES from Travis CI docs (#8409)
+  * Add links to all Jekyll themes on GitHub tagged with #jekyll-theme (#8447)
+  * docs: init project (#8450)
+  * docs: installation: fedora: add additional dependencies (#8456)
 
 ### Development Fixes
 
@@ -43,6 +46,7 @@
   * Update cucumber gem version to 5.1.2 (#8413)
   * Fix test suite compatibility with JRuby (#8418)
   * chore(deps): bump Rubocop to 0.93.0 (#8430)
+  * Use Ruby 2.7.1 in GitHub Actions (#8444)
 
 ### Bug Fixes
 
@@ -62,6 +66,10 @@
   * Use Regexp#match? when MatchData is not required (#8427)
   * Check default front matter scope against symbols (#8393)
   * Stash frequently used Drop setter keys for reuse (#8394)
+  * Memoize defaults computed for Convertibles (#8451)
+  * Reduce array allocations from merging categories (#8453)
+  * Enable Lint/NoReturnInBeginEndBlocks Cop (#8457)
+  * Memoize destination of pages, documents and staticfiles (#8458)
 
 ### Minor Enhancements
 
