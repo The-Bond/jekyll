@@ -28,6 +28,8 @@
   * Add links to all Jekyll themes on GitHub tagged with #jekyll-theme (#8447)
   * docs: init project (#8450)
   * docs: installation: fedora: add additional dependencies (#8456)
+  * Improve documentation on Hooks in Jekyll (#8467)
+  * Build docs site with GitHub Actions (#8201)
 
 ### Development Fixes
 
@@ -47,6 +49,9 @@
   * Fix test suite compatibility with JRuby (#8418)
   * chore(deps): bump Rubocop to 0.93.0 (#8430)
   * Use Ruby 2.7.1 in GitHub Actions (#8444)
+  * Reduce allocations from rendering item as liquid (#8406)
+  * Test that Liquid expressions are not deeply evaled (#8292)
+  * Test rendering arbitrary Liquid variables by default (#7414)
 
 ### Bug Fixes
 
@@ -70,6 +75,9 @@
   * Reduce array allocations from merging categories (#8453)
   * Enable Lint/NoReturnInBeginEndBlocks Cop (#8457)
   * Memoize destination of pages, documents and staticfiles (#8458)
+  * Generate items from `site.include` list only once (#8463)
+  * Allow triggering `:post_convert` events atomically (#8465)
+  * Explicitly return nil after site process phase (#8472)
 
 ### Minor Enhancements
 
@@ -78,15 +86,13 @@
   * Add post_convert hook to modify HTML content before layout (#8368)
   * Cache Jekyll.sanitized_path (#8424)
   * Memoize array of drop getter method names (#8421)
+  * Enhance detection of conflicting destination URLs (#8459)
+  * Debug reading Page and Layout objects (#8100)
+  * Don&#39;t reset site.url to localhost:4000 by default (#7253)
+  * Add custom debug strings for Jekyll objects (#8473)
+  * Debug reading data files in a site (#8481)
 
 ## 4.1.1 / 2020-06-24
-
-  * Fix grammar in documentation section (#8265)
-
-### Development Fixes
-
-  * Bump RuboCop to v0.85.x (#8223)
-  * Expect drive letter only on vanilla windows (#8227)
 
 ### Bug Fixes
 
@@ -104,11 +110,17 @@
   * correct typo (#8261)
   * Allow hyperlinks to specific filter documentation (#8231)
   * Update link to Netlify step-by-step guide (#8264)
+  * Fix grammar in documentation section (#8265)
 
 ### Site Enhancements
 
   * Including correct Sketch website (#8241)
   * Release post for v4.1.1 (#8243)
+
+### Development Fixes
+
+  * Bump RuboCop to v0.85.x (#8223)
+  * Expect drive letter only on vanilla windows (#8227)
 
 ## 4.1.0 / 2020-05-27
 
