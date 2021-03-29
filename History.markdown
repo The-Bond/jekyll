@@ -6,6 +6,31 @@
   * Document support for TSV files consistently (#8488)
   * Add a disclaimer to tutorials involving Ruby code (#8525)
   * Improve documentation on developing generators (#8527)
+  * Fixes typo in layouts_dir documentation (#8532)
+  * Fix i.e. typos in collections.md (#8529)
+  * Remove GitHub Pages content which is in GitHub docs (#8533)
+  * Step By Step Instructions Review (#8399)
+  * Fix typo in migrating from 3.0 to 4.0 page (#8572)
+  * Fix for important missing step in macOS Installation Docs: Add the Homebrew gems directory to the PATH (#8496)
+  * Use latest Jekyll-action configuration (#8579)
+
+### Bug Fixes
+
+  * Add webrick as a dependency (#8524)
+
+### Development Fixes
+
+  * style: enable new cops (#8538)
+  * Allow dependabot to keep github actions up-to-date (#8540)
+  * Update actions/cache requirement to v2.1.3 (#8543)
+  * Pin rubocop version (#8564)
+  * style: add rubocop 1.9 cops (#8567)
+  * Cross Version Testing Locally and Faster CI (#8610)
+
+### Minor Enhancements
+
+  * Regenerate supported mime types (#8542)
+  * Update include tag to be more permissive (#8618)
 
 ## 4.2.0 / 2020-12-14
 
